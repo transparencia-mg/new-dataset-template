@@ -1,33 +1,33 @@
 fields:
-  - name: REGISTROS
+  - name: registros
     title: REGISTROS
     type: integer
     description: Quantidade de ocorrências registradas.
-  - name: NATUREZA
+  - name: natureza
     type: string
     title: NATUREZA
     description: Natureza do crime cometido.
-  - name: MUNICIPIO
+  - name: municipio
     type: string
     title: MUNICIPIO
     description: Nome do município em que ocorreu o crime.
-  - name: COD_MUNICIPIO
+  - name: cod_municipio
     type: integer
     title: CÓDIGO MUNICÍPIO
     description: Código do município.
-  - name: MES
+  - name: mes
     type: integer
     title: MÊS
     description: Mês em que ocorreu o fato.
-  - name: ANO
+  - name: ano
     type: integer
     title: ANO
     description: Ano em que ocorreu o fato.
-  - name: RISP
+  - name: risp
     title: RISP
     description: Número de identificação da Região Integrada de Segurança Pública.
     type: integer
-  - name: RMBH
+  - name: rmbh
     title: RMBH
     type: string
     description: Se pertence ou não à Região Metropolitana de Belo Horizonte.
