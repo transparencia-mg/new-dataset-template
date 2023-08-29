@@ -1,0 +1,144 @@
+profile: data-package
+name: datastore
+title: Teste datastore novo dpckan/template
+description: (verifricar o schema - LOWER/UPPER CASE - teste do datastore para nova versão do dpckan e template)
+owner_org: controladoria-geral-do-estado-cge
+version: 0.1
+homepage: https://github.com/Andrelamor/datastore
+contributors:
+  - title: Diretoria Central de Transparência Ativa
+    role: maintainer
+    email: transparencia@cge.mg.gov.br
+licenses:
+  - name: CC-BY-4.0
+    title: Creative Commons Attribution 4.0
+    path: https://creativecommons.org/licenses/by/4.0/
+frequência de atualização: mensal
+temporal:
+  - start: '2012-01-31'
+    end: '2023-07-31'
+keywords: 
+  - 'crimes'
+  - 'estatísticas criminais'
+  - 'segurança'
+resources:
+  - name: crimes_violentos_2012
+    title: Crimes Violentos 2012
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2012.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2013
+    title: Crimes Violentos 2013
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2013.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2014
+    title: Crimes Violentos 2014
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2014.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2015
+    title: Crimes Violentos 2015
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2015.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2016
+    title: Crimes Violentos 2016
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2016.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2017
+    title: Crimes Violentos 2017
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2017.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2018
+    title: Crimes Violentos 2018
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2018.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2019
+    title: Crimes Violentos 2019
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2019.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2020
+    title: Crimes Violentos 2020
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2020.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2021
+    title: Crimes Violentos 2021
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2021.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2022
+    title: Crimes Violentos 2022
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2022.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
+  - name: crimes_violentos_2023
+    title: Crimes Violentos 2023
+    dialect: schemas/dialect_v1.yaml
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    path: data/crimes_violentos_2023.csv
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    scheme: file
