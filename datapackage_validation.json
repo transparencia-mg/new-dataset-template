@@ -1,0 +1,1212 @@
+{
+  "version": "4.16.6",
+  "time": 29.566,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "name": "crimes_violentos_2012",
+        "title": "Crimes Violentos 2012",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2012.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "aec81a535e69e3b5cef6fd335b3a7adb",
+          "bytes": 8305145,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.586,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2013",
+        "title": "Crimes Violentos 2013",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2013.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "4acca01ac7c3f58b19ce1d3a15a3ae13",
+          "bytes": 8305296,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.526,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2014",
+        "title": "Crimes Violentos 2014",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2014.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "79f6997edda9f5aae8959193f6f48588",
+          "bytes": 8305441,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.505,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2015",
+        "title": "Crimes Violentos 2015",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2015.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "793ba43a76889b8671a97c12262810e4",
+          "bytes": 8305567,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.509,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2016",
+        "title": "Crimes Violentos 2016",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2016.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "3c14c717afc4f97bc84c6a127d7fb1ba",
+          "bytes": 8305681,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.575,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2017",
+        "title": "Crimes Violentos 2017",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2017.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "667c575e81c810d07ac197f2856c5f1a",
+          "bytes": 8305593,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.56,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2018",
+        "title": "Crimes Violentos 2018",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "8afc1009720382ffdf8985970db3241d",
+          "bytes": 8305229,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.538,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2019",
+        "title": "Crimes Violentos 2019",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2019.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "e0e7bd65e33b74d25f96dac6fc82ff6a",
+          "bytes": 8304965,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.524,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2020",
+        "title": "Crimes Violentos 2020",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2020.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "1b20017fe8f80451db9a66cf851684a3",
+          "bytes": 8304677,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.555,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2021",
+        "title": "Crimes Violentos 2021",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2021.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "6b7e3ad17aa8c7e87841eaf3f0301f04",
+          "bytes": 8304631,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.548,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2022",
+        "title": "Crimes Violentos 2022",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2022.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "5c8cf14e227d362a55b1836cc3117220",
+          "bytes": 8304632,
+          "fields": 8,
+          "rows": 133068
+        }
+      },
+      "time": 2.568,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "name": "crimes_violentos_2023",
+        "title": "Crimes Violentos 2023",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "path": "data/crimes_violentos_2023.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "title": "REGISTROS",
+              "type": "integer",
+              "description": "Quantidade de ocorrências registradas."
+            },
+            {
+              "name": "natureza",
+              "type": "string",
+              "title": "NATUREZA",
+              "description": "Natureza do crime cometido."
+            },
+            {
+              "name": "municipio",
+              "type": "string",
+              "title": "MUNICIPIO",
+              "description": "Nome do município em que ocorreu o crime."
+            },
+            {
+              "name": "cod_municipio",
+              "type": "integer",
+              "title": "CÓDIGO MUNICÍPIO",
+              "description": "Código do município."
+            },
+            {
+              "name": "mes",
+              "type": "integer",
+              "title": "MÊS",
+              "description": "Mês em que ocorreu o fato."
+            },
+            {
+              "name": "ano",
+              "type": "integer",
+              "title": "ANO",
+              "description": "Ano em que ocorreu o fato."
+            },
+            {
+              "name": "risp",
+              "title": "RISP",
+              "description": "Número de identificação da Região Integrada de Segurança Pública.",
+              "type": "integer"
+            },
+            {
+              "name": "rmbh",
+              "title": "RMBH",
+              "type": "string",
+              "description": "Se pertence ou não à Região Metropolitana de Belo Horizonte."
+            }
+          ]
+        },
+        "scheme": "file",
+        "stats": {
+          "hash": "88311775b63fa9478fa4410d697e4951",
+          "bytes": 4824905,
+          "fields": 8,
+          "rows": 77623
+        }
+      },
+      "time": 1.469,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 12
+  },
+  "valid": true
+}
