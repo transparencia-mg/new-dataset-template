@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.293,
+  "time": 0.331,
   "errors": [],
   "tasks": [
     {
@@ -65,13 +65,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "b2d060abef6d29e6f7f7e994a907b17d",
+          "hash": "48ed08acec5fbded42f00fd5fc8d6bb8",
           "bytes": 17552,
           "fields": 5,
           "rows": 284
         }
       },
-      "time": 0.051,
+      "time": 0.061,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -93,11 +93,142 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "label": "id_instrumento",
+          "fieldName": "ID_INSTRUMENTO",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"id_instrumento\" in field ID_INSTRUMENTO at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "tipo_documento",
+          "fieldName": "TIPO_DOCUMENTO",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"tipo_documento\" in field TIPO_DOCUMENTO at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "documento",
+          "fieldName": "DOCUMENTO",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"documento\" in field DOCUMENTO at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "url_documento",
+          "fieldName": "URL_DOCUMENTO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"url_documento\" in field URL_DOCUMENTO at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "observacoes",
+          "fieldName": "OBSERVACOES",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"observacoes\" in field OBSERVACOES at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 5
       },
-      "valid": true
+      "valid": false
     },
     {
       "resource": {
@@ -167,13 +298,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "c66e7f7ec4b97ab2f208b9cd9a424754",
+          "hash": "a7a79d88593ac11146e01b000b6dbbf8",
           "bytes": 111963,
           "fields": 6,
           "rows": 554
         }
       },
-      "time": 0.07,
+      "time": 0.071,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -195,11 +326,174 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "label": "id_instrumento",
+          "fieldName": "ID_INSTRUMENTO",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"id_instrumento\" in field ID_INSTRUMENTO at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "tipo_documento",
+          "fieldName": "TIPO_DOCUMENTO",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"tipo_documento\" in field TIPO_DOCUMENTO at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "documento",
+          "fieldName": "DOCUMENTO",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"documento\" in field DOCUMENTO at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "periodo_avaliatorio",
+          "fieldName": "PERIODO_AVALIATORIO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"periodo_avaliatorio\" in field PERIODO_AVALIATORIO at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "url_documento",
+          "fieldName": "URL_DOCUMENTO",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"url_documento\" in field URL_DOCUMENTO at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "observacoes",
+          "fieldName": "OBSERVACOES",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "labels": [
+            "id_instrumento",
+            "tipo_documento",
+            "documento",
+            "periodo_avaliatorio",
+            "url_documento",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"observacoes\" in field OBSERVACOES at position \"6\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 6
       },
-      "valid": true
+      "valid": false
     },
     {
       "resource": {
@@ -267,13 +561,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "72107e54742965b63f3ff5c836e33697",
+          "hash": "5d39bd90478bdbf7454156f66ab6232c",
           "bytes": 7689,
           "fields": 5,
           "rows": 195
         }
       },
-      "time": 0.047,
+      "time": 0.053,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -295,11 +589,142 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "label": "id_instrumento",
+          "fieldName": "ID_INSTRUMENTO",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "id_instrumento",
+            "ano",
+            "repasse_previsto",
+            "repasse_atualizado",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"id_instrumento\" in field ID_INSTRUMENTO at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "ano",
+          "fieldName": "ANO",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "id_instrumento",
+            "ano",
+            "repasse_previsto",
+            "repasse_atualizado",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"ano\" in field ANO at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "repasse_previsto",
+          "fieldName": "REPASSE_PREVISTO",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "id_instrumento",
+            "ano",
+            "repasse_previsto",
+            "repasse_atualizado",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"repasse_previsto\" in field REPASSE_PREVISTO at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "repasse_atualizado",
+          "fieldName": "REPASSE_ATUALIZADO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "id_instrumento",
+            "ano",
+            "repasse_previsto",
+            "repasse_atualizado",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"repasse_atualizado\" in field REPASSE_ATUALIZADO at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "observacoes",
+          "fieldName": "OBSERVACOES",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "id_instrumento",
+            "ano",
+            "repasse_previsto",
+            "repasse_atualizado",
+            "observacoes"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"observacoes\" in field OBSERVACOES at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 5
       },
-      "valid": true
+      "valid": false
     },
     {
       "resource": {
@@ -469,13 +894,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "cd5d62f47d1d665785f28bd60985678b",
+          "hash": "7a6f1a65f89b353ec7feae8f92d98d6d",
           "bytes": 35186,
           "fields": 15,
           "rows": 60
         }
       },
-      "time": 0.036,
+      "time": 0.042,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -497,16 +922,557 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "label": "id_instrumento",
+          "fieldName": "ID_INSTRUMENTO",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"id_instrumento\" in field ID_INSTRUMENTO at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "tipo_instrumento",
+          "fieldName": "TIPO_INSTRUMENTO",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"tipo_instrumento\" in field TIPO_INSTRUMENTO at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "num_termo_contrato",
+          "fieldName": "NUM_TERMO_CONTRATO",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"num_termo_contrato\" in field NUM_TERMO_CONTRATO at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "orgao_estatal_codigo",
+          "fieldName": "ORGAO_ESTATAL_CODIGO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"orgao_estatal_codigo\" in field ORGAO_ESTATAL_CODIGO at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "orgao_estatal_nome",
+          "fieldName": "ORGAO_ESTATAL_NOME",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"orgao_estatal_nome\" in field ORGAO_ESTATAL_NOME at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "orgao_estatal_sigla",
+          "fieldName": "ORGAO_ESTATAL_SIGLA",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"orgao_estatal_sigla\" in field ORGAO_ESTATAL_SIGLA at position \"6\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "entidade_parceira_nome",
+          "fieldName": "ENTIDADE_PARCEIRA_NOME",
+          "fieldNumber": 7,
+          "fieldPosition": 7,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"entidade_parceira_nome\" in field ENTIDADE_PARCEIRA_NOME at position \"7\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "entidade_parceira_sigla",
+          "fieldName": "ENTIDADE_PARCEIRA_SIGLA",
+          "fieldNumber": 8,
+          "fieldPosition": 8,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"entidade_parceira_sigla\" in field ENTIDADE_PARCEIRA_SIGLA at position \"8\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "entidade_parceira_cnpj",
+          "fieldName": "ENTIDADE_PARCEIRA_CNPJ",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"entidade_parceira_cnpj\" in field ENTIDADE_PARCEIRA_CNPJ at position \"9\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "objeto",
+          "fieldName": "OBJETO",
+          "fieldNumber": 10,
+          "fieldPosition": 10,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"objeto\" in field OBJETO at position \"10\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "situacao",
+          "fieldName": "SITUACAO",
+          "fieldNumber": 11,
+          "fieldPosition": 11,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"situacao\" in field SITUACAO at position \"11\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "data_inicio_vigencia",
+          "fieldName": "DATA_INICIO_VIGENCIA",
+          "fieldNumber": 12,
+          "fieldPosition": 12,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"data_inicio_vigencia\" in field DATA_INICIO_VIGENCIA at position \"12\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "data_fim_vigencia",
+          "fieldName": "DATA_FIM_VIGENCIA",
+          "fieldNumber": 13,
+          "fieldPosition": 13,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"data_fim_vigencia\" in field DATA_FIM_VIGENCIA at position \"13\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "url_integra_termo_contrato",
+          "fieldName": "URL_INTEGRA_TERMO_CONTRATO",
+          "fieldNumber": 14,
+          "fieldPosition": 14,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"url_integra_termo_contrato\" in field URL_INTEGRA_TERMO_CONTRATO at position \"14\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "url_documentos_termo_contrato",
+          "fieldName": "URL_DOCUMENTOS_TERMO_CONTRATO",
+          "fieldNumber": 15,
+          "fieldPosition": 15,
+          "labels": [
+            "id_instrumento",
+            "tipo_instrumento",
+            "num_termo_contrato",
+            "orgao_estatal_codigo",
+            "orgao_estatal_nome",
+            "orgao_estatal_sigla",
+            "entidade_parceira_nome",
+            "entidade_parceira_sigla",
+            "entidade_parceira_cnpj",
+            "objeto",
+            "situacao",
+            "data_inicio_vigencia",
+            "data_fim_vigencia",
+            "url_integra_termo_contrato",
+            "url_documentos_termo_contrato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"url_documentos_termo_contrato\" in field URL_DOCUMENTOS_TERMO_CONTRATO at position \"15\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 15
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 31,
     "tasks": 4
   },
-  "valid": true
+  "valid": false
 }
