@@ -30,8 +30,6 @@ resources:
           description: "Total de leitos dia excluídos os leitos extra ocupados."
     scheme: file
     title: Leito dia a partir de 2025.
-title: Leito Dia;
-
   - description: Dados de leito-dia por unidade FHEMIG a partir de 2022.
     dialect:
       delimiter: ;
