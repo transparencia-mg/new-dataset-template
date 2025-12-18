@@ -9,7 +9,7 @@ resources:
     format: csv
     hashing: md5
     name: leito-dia_2025
-    path: data/leito-dia_2025.csv
+    path: data/leito-dia.csv
     profile: tabular-data-resource
     schema:
       fields:
