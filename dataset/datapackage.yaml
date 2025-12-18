@@ -1,0 +1,51 @@
+name: leito_dia
+owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: leito-dia
+    path: data/leito-dia.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+        - name: ano
+          type: integer
+        - name: mes
+          type: integer
+        - name: leito_dia
+          type: integer
+        - name: leito_operacional_sem_extra
+          type: integer
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: leito-dia_2025
+    path: data/leito-dia_2025.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+        - name: ano
+          type: integer
+        - name: mes
+          type: integer
+        - name: leito_dia
+          type: string
+        - name: leito_operacional_sem_extra
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Leito_dia
