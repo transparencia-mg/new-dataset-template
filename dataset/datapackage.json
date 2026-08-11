@@ -78,7 +78,10 @@
         ]
       },
       "scheme": "file",
-      "title": "Contratos Vigentes"
+      "title": "Contratos Vigentes",
+      "layout": {
+        "header": false
+      }
     }
   ],
   "title": "Contratos Vigentes - IPSEMG"
