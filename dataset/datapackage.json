@@ -1,0 +1,85 @@
+{
+  "name": "contratos_vigentes",
+  "owner_org": "instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "contratos_vigentes",
+      "path": "data/contratos_vigentes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "periodo_referencia",
+            "type": "date",
+            "description": "Ano e mês de referência correspondente ao dado (aaaa_mm).",
+            "title": "Data de referência"
+          },
+          {
+            "name": "regiao_assistencial",
+            "type": "string",
+            "description": "Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada.",
+            "title": "Macrorregião do prestador"
+          },
+          {
+            "name": "microrregiao_do_prestador",
+            "type": "string",
+            "description": "Microrregião de origem do prestador de serviços. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.",
+            "title": "Microrregião do prestador"
+          },
+          {
+            "name": "municipio",
+            "type": "string",
+            "description": "Município de origem do prestador de serviços. ",
+            "title": "Município do Prestador "
+          },
+          {
+            "name": "ramo_atividade",
+            "type": "string",
+            "description": "Tipo de estabelecimento do prestador, como clínica, consultório, hospital ou laboratório.",
+            "title": "Ramo de Atividade"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer",
+            "description": "Número do instrumento de acordo de vontades entre o IPSEMG e prestadores credenciados para a prestação de serviços de assistência à saúde, com a estipulação de obrigações recíprocas, incluindo seus aditivos e demais ajustes, observada a Lei Federal nº 14.133, de 2021 e regulamentos vigentes.",
+            "title": "Número do Contrato"
+          },
+          {
+            "name": "cpnj",
+            "type": "integer",
+            "description": "Cadastro Nacional da Pessoa Jurídica do prestador credenciado",
+            "title": "CNPJ"
+          },
+          {
+            "name": "razao_social",
+            "type": "string",
+            "description": "Razão Social do Credenciado",
+            "title": "Razão Social"
+          },
+          {
+            "name": "inicio_vigencia",
+            "type": "date",
+            "description": "Inicio da vigência conforme previsão contratual.",
+            "title": "Início da vigência"
+          },
+          {
+            "name": "fim_vigencia",
+            "type": "datetime",
+            "description": "Término da vigência conforme previsão contratual.",
+            "title": "Fim da Vigência"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Contratos Vigentes"
+    }
+  ],
+  "title": "Contratos Vigentes - IPSEMG"
+}
