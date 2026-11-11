@@ -1,7 +1,8 @@
 [tool.taskipy.tasks]
 csv = { cmd = "python scripts/convert_csv.py", help = "Converte arquivos Excel em csv." }
-yaml = { cmd = "python scripts/create_datapackage_yaml.py", help = "Cria datapackage.yaml caso este ainda não exista." }
+yaml = { cmd = "python scripts/create_datapackage_yaml.py", help = "Cria datapackage.yaml ou sincroniza seus recursos com dataset/data." }
 json = { cmd = "python scripts/create_datapackage_json.py", help = "Converte datapackage.yaml em datapackage.json." }
 documentation = { cmd = "python scripts/generate_documentation.py", help = "Gera documentação markdown dinâmica." }
+sync = { cmd = "python scripts/ckan_sync_resources.py --datapackage dataset/datapackage.json", help = "Cria no CKAN recursos novos e exclui os que saíram do datapackage." }
 validate = { cmd = "python scripts/validate.py", help = "Valida dataset." }
 report = { cmd = "livemark build index.md --target index.html", help = "Gera relatório de validação." }

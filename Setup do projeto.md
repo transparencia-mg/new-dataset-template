@@ -148,4 +148,25 @@ abas = {
 #     ],
 ````
 
+## 7- Inclusão e exclusão de arquivos
+
+### 7.1 Incluir um arquivo novo
+
+Coloque o novo Excel na pasta `upload` (ou o CSV direto em `dataset/data`). Vale para qualquer arquivo: novo ano, nova aba, nova tabela. A automação converte o Excel em CSV, inclui o recurso no `datapackage.yaml` e o cria no CKAN. O recurso novo aproveita a documentação de um recurso que já existe:
+
+- **mesma série no nome** (só números diferentes, ex.: `estagiarios_2026` → `estagiarios_2027`, `folha_2026_01` → `folha_2026_02`): copia título e descrição trocando os números;
+- **mesmas colunas** de um recurso existente: copia o schema, com tipos e descrições das colunas;
+- **colunas diferentes** do recurso da série: o schema é inferido do CSV novo, mantendo a documentação das colunas que continuaram, e o log mostra `REVISAR`;
+- **nenhuma semelhança**: título e descrição entram para preencher.
+
+**Depois da publicação, revise no `datapackage.yaml` o título e a descrição do recurso novo.**
+
+### 7.2 Excluir um arquivo
+
+Apague o Excel da pasta `upload` (ou retire a aba do `config.py`). A automação apaga o CSV correspondente em `dataset/data`, retira o recurso do `datapackage.yaml` e do `datapackage.json` e exclui o recurso no CKAN. Para CSVs colocados direto em `dataset/data`, basta apagar o CSV.
+
+**Atenção:** apagar o Excel do `upload` exclui o recurso publicado. Não apague arquivos do `upload` só para "limpar" a pasta. Se precisar desligar a exclusão automática de CSVs em um repositório, inclua `remover_excluidos = False` no `scripts/config.py`.
+
+Por segurança, se `dataset/data` ficar sem nenhum CSV, nada é excluído. A automação só exclui no CKAN recursos que ela mesma criou; recursos incluídos à mão no CKAN não são tocados.
+
 [^1]: [Ciclo de Abertura, Documentação, Validação e Publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/).

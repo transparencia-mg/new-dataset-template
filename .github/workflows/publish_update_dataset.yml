@@ -29,7 +29,7 @@ jobs:
       - name: Commit CSV
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Converte Excel para CSV via script.
+          commit_message: Converte Excel para CSV (e remove CSVs de Excel excluído) via script.
       - name: Create datapackage.yaml
         env:
           DATASET_NAME: ${{ github.event.repository.name }}
@@ -38,7 +38,7 @@ jobs:
       - name: Commit new datapackage.yaml
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Cria datapackage.yaml caso não exista via script.
+          commit_message: Cria/sincroniza recursos do datapackage.yaml via script.
       - name: Create datapackage.json
         run: task json
       - name: Commit new datapackage.json
@@ -77,6 +77,12 @@ jobs:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
           CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
         run: dpckan --datastore --datapackage dataset/datapackage.json --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset create
+      - name: Sync resources in CKAN (cria novos e exclui removidos)
+        if: ${{ ! cancelled() }}
+        env:
+          CKAN_HOST: ${{ secrets.CKAN_HOST }}
+          CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
+        run: task sync
       - name: Update dataset in CKAN with dpckan with exist
         if: ${{ ! cancelled() }}
         env:
